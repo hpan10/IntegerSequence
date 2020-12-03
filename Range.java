@@ -2,7 +2,7 @@ import java.util.NoSuchElementException;
 
 public class Range implements IntegerSequence{
 
-  public int start, end, current;
+  private int start, end, current;
 
   public Range(int start, int end){
     if (start > end){
